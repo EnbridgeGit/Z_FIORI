@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SHORTTEXT>Fiori HCM Enhancements V2</SHORTTEXT>
+   <ENH_CHILDS>
+    <ENHNAME>ZHCM_ATS_GET_VALUEHELP</ENHNAME>
+    <ENHNAME>ZHCM_ES_APPROVE_TIMESHEETS</ENHNAME>
+    <ENHNAME>ZHCM_ES_TIMESHEET</ENHNAME>
+    <ENHNAME>ZHCM_TIMESHEET_APPRO_DPC_EXT</ENHNAME>
+   </ENH_CHILDS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

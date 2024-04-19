@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ZPLM_ACTION_DPC_EXT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Data Provider Secondary Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_AUDIT_INFO</CMPNAME>
+     <SCONAME>IV_ACTION_GUID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>unique object identifier in Audit Management (CHAR32)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GOS_ATTACH_XSTRING</CMPNAME>
+     <SCONAME>IS_LPORB</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Local Persistent Object Reference - BOR Compatible</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GOS_ATTACH_XSTRING</CMPNAME>
+     <SCONAME>RT_MESSAGES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table with BAPI Return Information</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_EMAIL</CMPNAME>
+     <SCONAME>IV_ACTION_GUID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>unique object identifier in Audit Management (CHAR32)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SPLIT_LONG_STRING</CMPNAME>
+     <SCONAME>CT_LONGTEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Long Text Table Category for BAPIs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SPLIT_LONG_STRING</CMPNAME>
+     <SCONAME>IV_GUID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>unique object identifier in Audit Management (CHAR32)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SPLIT_LONG_STRING</CMPNAME>
+     <SCONAME>IV_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Not More Closely Defined Area, Possibly Used for Patchlevels</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
